@@ -165,7 +165,7 @@ class Star {
 
 // Create an array of 100 stars
 let stars = [];
-for (let i = 0; i < 200; i++) {
+for (let i = 0; i < 100; i++) {
   stars.push(new Star(Math.random() * canvas.width, Math.random() * canvas.height));
 }
 
