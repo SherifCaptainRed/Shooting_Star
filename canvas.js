@@ -197,7 +197,7 @@ function animate() {
   }
 
   // Check if the number of stars is below 45
-  if (stars.length < 185) {
+  if (stars.length < 100) {
     // If it is, spawn another 50 stars at the top of the canvas
     for (let i = 0; i < 15; i++) {
       stars.push(new Star(Math.random() * canvas.width, 0));
